@@ -1,0 +1,1 @@
+FocusMe is an innovative creation designed to simplify your photo management. You can effortlessly upload real-time images or choose photos from your device, and our advanced machine learning model will accurately fetch only those images that feature your face.
