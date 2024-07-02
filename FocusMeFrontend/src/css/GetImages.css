@@ -1,0 +1,76 @@
+.get-images-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #a3c4f3; /* Pastel blue background */
+  color: #0d47a1; /* Dark blue text */
+  padding: 5rem;
+}
+
+.description {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.action-button {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #0d47a1; /* Dark blue */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #1a237e; /* Darker blue on hover */
+}
+
+.captured-image-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.captured-image {
+  margin-bottom: 1rem;
+  width: 20rem;
+}
+
+.initial-message {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.matched-images-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows the images to wrap to the next line */
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.matched-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+ 
+}
+  
+.image-container{
+  position: relative;
+}
+
+.imgBtnBox {
+  display: none;
+  position: absolute;
+  right: 0;
+}
+.image-container:hover .imgBtnBox {
+  display: block;
+}
+
