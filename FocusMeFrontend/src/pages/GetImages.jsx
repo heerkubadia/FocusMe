@@ -4,8 +4,7 @@ import "/Users/heerkubadia/Desktop/FocusMe/FocusMeFrontend/src/css/GetImages.css
 import { IconButton } from "@mui/material";
 import { Download, Delete } from "@mui/icons-material";
 import { motion } from "framer-motion";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast } from 'react-toastify';
 
 function GetImages() {
   const videoRef = useRef(null);
@@ -107,7 +106,7 @@ function GetImages() {
 
   return (
     <div className="get-images-container">
-      <ToastContainer />
+      
       <motion.div
         className="description"
         initial={{ opacity: 0 }}

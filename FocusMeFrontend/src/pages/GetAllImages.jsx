@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "../css/GetAllImages.css";
 import { IconButton, CircularProgress } from "@mui/material";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function GetAllImages() {
@@ -206,7 +206,7 @@ function GetAllImages() {
       </motion.div>
 
       
-      <ToastContainer />
+      
     </div>
   );
 }

@@ -5,10 +5,14 @@ import Home from './pages/Home';
 import UploadImages from './pages/UploadImages';
 import GetImages from './pages/GetImages';
 import GetAllImages from './pages/GetAllImages';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
+
 
 const App = () => {
   return (
     <Router>
+      <ToastContainer />
       <div>
         <Navbar />
         <Routes>

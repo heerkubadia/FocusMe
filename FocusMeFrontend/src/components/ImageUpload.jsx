@@ -3,8 +3,7 @@ import { Button, TextField } from '@material-ui/core';
 import axios from 'axios';
 import { useDropzone } from 'react-dropzone';
 import '../css/UploadImages.css'; // Import the CSS file
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast } from 'react-toastify';
 
 const ImageUpload = () => {
   const [imageFiles, setImageFiles] = useState([]);
@@ -184,7 +183,7 @@ const ImageUpload = () => {
         {loading ? 'Uploading...' : 'Upload from Google Drive'}
       </Button>
 
-      <ToastContainer />
+      
     </div>
   );
 };
